@@ -1,14 +1,8 @@
 # ising-model
 
-<img float="left" src="src/out/iterations.png" width=200px>
-<img float="left" src="src/out/Cv.png" width=200px>
-<img float="left" src="src/out/E.png" width=200px>
-<img float="left" src="src/out/m.png" width=200px>
-
-
-<br>
 
 Simulation of the 2D square ising model using the python scientific tookit: `numpy`, `numba`, `scipy`, and a statistical trick from `astropy`.
+
 
 
 # Running
@@ -18,6 +12,12 @@ Inside the `src` folder, run `pip install -r requirements.txt`
 Then, `python ising_simulation.py` will run the script and generate the plots in the `src/out` directory. It will display a progress bar if the simulations takes long.
 
 # Document
+
+## Results 
+
+| Simulation | Heat capacity | Energy | Magnetization |
+|-|-|-|-|
+|![](src/out/iterations.png)|![](src/out/Cv.png)|![](src/out/E.png)|![](src/out/m.png)|
 
 The `doc` folder contains a `typst` document with some explanations and conclusions about the simulation. 
 All of the theoretical formulas are taken from [Onsager, Lars (1944-02-01). "Crystal Statistics. I. A Two-Dimensional Model with an Order-Disorder Transition". Physical Review. 65 (3–4): 117–149.](https://doi.org/10.1103%2FPhysRev.65.117)
