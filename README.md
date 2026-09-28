@@ -1,5 +1,13 @@
 # ising-model
 
+<img float="left" src="src/out/iterations.png" width=200px>
+<img float="left" src="src/out/Cv.png" width=200px>
+<img float="left" src="src/out/E.png" width=200px>
+<img float="left" src="src/out/m.png" width=200px>
+
+
+<br>
+
 Simulation of the 2D square ising model using the python scientific tookit: `numpy`, `numba`, `scipy`, and a statistical trick from `astropy`.
 
 
@@ -16,3 +24,6 @@ All of the theoretical formulas are taken from [Onsager, Lars (1944-02-01). "Cry
 
 A simple `typst compile ising_report.typ` will produce the PDF.
 
+## Troubleshooting 
+
+The `doc` folder has a symbolic link, so it may not work on a windows machine, in which case copy the `src/out` directory into a `doc/img` directory.
