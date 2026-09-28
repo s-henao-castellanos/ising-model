@@ -1,0 +1,6 @@
+numpy
+matplotlib
+numba
+tqdm
+astropy
+scipy
